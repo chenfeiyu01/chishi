@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+*{
+  margin:0;
+  padding:0;
+  font-size: 0.08rem;
+  font-family: "微软雅黑 Light";
+}
+html,body{
+  width:100%;
+  height:100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.4rem;
+  width:100%;
+  padding-right:0.1rem;
+  box-sizing: border-box;
+  .back{
+    i{
+      font-size:0.225rem;
+      color:#999;
+    }
+  }
+  .zi{
+    font-size: 0.18rem;
+  }
+  .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    i{
+      font-size: 0.145rem;
+      color:#999;
+    }
+    p{
+      color:#999;
+      font-size:  0.1rem;
+      line-height: 0.1rem;
+      margin-top:0.04rem;
+    }
+  }
+}
+#sec-1{
+  .sec1-head{
+    width:100%;
+    height:0.5rem;
+    background:#202020;
+  }
+  .sec1-body{
+    background: #202020;
+    padding-bottom:0.225rem;
+    .tu{
+      width:100%;
+      img{
+        width:100%;
+      }
+    }
+    .daohang{
+      width:100%;
+      overflow: hidden;
+      margin-top:0.23rem;
+      margin-bottom:0.35rem;
+      .xian{
+        width:100%;
+        height:0.02rem;
+        background:#39c894;
+        position: relative;
+        top:0.1225rem;
+      }
+      ul{
+        display: flex;
+        justify-content: space-between;
+        width:110%;
+        position: relative;
+        left:-0.18rem;
+        li{
+          list-style: none;
+          text-align: center;
+          .quan{
+            width:0.2rem;
+            margin:0 auto;
+            height:0.2rem;
+            background:#202020;
+            border:0.02rem solid #39c894;
+            position: relative;
+            border-radius:50%;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            .yuan{
+              width:0.14rem;
+              height:0.14rem;
+              background:#39c894;
+              position: absolute;
+              box-sizing: border-box;
+              border-radius:50%;
+              top:0;
+              bottom:0;
+              left:0;
+              right:0;
+              margin:auto auto;
+            }
+          }
+          p{
+            margin-top:0.15rem;
+            font-size: 0.14rem;
+            color:#39c894;
+            line-height: 0.15rem;
+          }
+        }
+      }
+    }
+    .wenzi{
+      margin:0 0.09rem;
+      height:0.825rem;
+      overflow: auto;
+      p{
+        line-height:0.33rem;
+        font-size: 0.18rem;
+        color:white;
+      }
+    }
+  }
+}
+#sec-7{
+  margin:0 0.09rem;
+  padding:0.15rem 0;
+  p{
+    font-size: 0.14rem;
+    color:#666;
+    line-height: 0.2rem;
+  }
+}
+footer{
+  padding:0.18rem 0;
+  margin: 0 0.09rem;
+  margin-bottom:0.4rem;
+  .foot-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    span{
+      font-size:0.14rem;
+      vertical-align: middle;
+      color:#333;
+    }
+    i{
+      color:#39c894;
+      font-size:0.16rem;
+      display: flex;
+      align-self:flex-end;
+      vertical-align: middle;
+      position: relative;
+      top:0.02rem;
+    }
+  }
+  ul{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top:0.18rem;
+    li{
+      font-size: 0.14rem;
+      list-style: none;
+      padding:0 0.18rem;
+      border-left:0.005rem solid #ccc;
+      color:#333;
+    }
+    li:first-child{
+      border:none;
+      color:#39c894;
+    }
+  }
+}
+#guanggao{
+  height:0.5rem;
+  background:#ff4351;
+  opacity: 0.8;
+  display: flex;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  i{
+    font-size: 0.28rem;
+    color:white;
+    margin-right:0.05rem;
+  }
+  p{
+    color:white;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+  }
+}
+#dingbu{
+  width:0.47rem;
+  height: 0.47rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right:0.1rem;
+  bottom:1rem;
+  border:0.01rem solid #dedede;
+  border-radius:50%;
+  background: white;
+  i{
+    font-size: 0.2rem;
+    color:#9c9c9c;
+  }
+}
+.jianxi{
+  width:100%;
+  height: 0.1rem;
+  background: #f4f4f4;
+}

@@ -1,0 +1,435 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0.08rem;
+  font-family: "微软雅黑 Light";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  margin: 0.08rem 0.09rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 0.4rem;
+}
+header .logo {
+  width: 1.07rem;
+  height: 0.365rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .logo img {
+  width: 100%;
+}
+header .wenzi {
+  font-size: 0.18rem;
+}
+header .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 0.4rem;
+}
+header .icon .icon-1 {
+  margin-left: 0.1rem;
+  text-align: center;
+}
+header .icon .icon-1 div {
+  height: 0.24rem;
+  display: flex;
+  align-items: center;
+}
+header .icon .icon-1 div i {
+  font-size: 0.225rem;
+  color: #999;
+}
+header .icon .icon-1 p {
+  height: 0.16rem;
+  color: #999;
+  font-size: 0.12rem;
+}
+header .icon .icon-1:last-child i {
+  font-size: 0.165rem;
+}
+
+#banner {
+  width: 100%;
+  position: relative;
+  font-size: 0;
+}
+#banner img {
+  width: 100%;
+}
+#banner ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0.1rem;
+}
+#banner ul li {
+  list-style: none;
+  width: 0.06rem;
+  height: 0.06rem;
+  border-radius: 50%;
+  background: #999;
+  margin: 0 0.08rem;
+}
+#banner ul li:first-child {
+  background: #39c894;
+}
+
+#sec-1 {
+  margin-top: 0.1rem;
+}
+#sec-1 .sec1-head {
+  margin: 0 0.09rem;
+}
+#sec-1 .sec1-head p {
+  padding: 0.02rem 0.1rem;
+  background: #f4f4f4;
+  border-radius: 0.02rem;
+  font-size: 0.12rem;
+}
+#sec-1 .sec1-action .sec1-action-head {
+  margin: 0 0.09rem;
+  border-bottom: 0.005rem solid #eaeaea;
+}
+#sec-1 .sec1-action .sec1-action-head h2 {
+  font-size: 0.18rem;
+  text-align: center;
+  margin-top: 0.18rem;
+}
+#sec-1 .sec1-action .sec1-action-head p {
+  display: flex;
+  justify-content: center;
+}
+#sec-1 .sec1-action .sec1-action-head p span {
+  font-size: 0.12rem;
+  color: #999;
+  margin: 0.15rem;
+}
+#sec-1 .sec1-action .sec1-action-head p span i {
+  font-size: 0.14rem;
+  color: #999;
+  margin-right: 0.02rem;
+}
+#sec-1 .sec1-action .sec1-action-ad {
+  margin: 0 0.09rem;
+}
+#sec-1 .sec1-action .sec1-action-ad ul {
+  margin-top: 0.15rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec-1 .sec1-action .sec1-action-ad ul li {
+  list-style: none;
+  border: 0.005rem solid #eaeaea;
+  border-radius: 0.1rem;
+  padding: 0.01rem 0.05rem;
+  font-size: 0.12rem;
+  margin: 0 0.03rem;
+  margin-bottom: 0.09rem;
+  color: #999;
+}
+#sec-1 .sec1-action .sec1-action-body {
+  margin-top: 0.18rem;
+  margin: 0 0.09rem;
+}
+#sec-1 .sec1-action .sec1-action-body p {
+  text-indent: 2em;
+  font-size: 0.12rem;
+  line-height: 0.18rem;
+  color: #666;
+}
+#sec-1 .sec1-action .sec1-action-body .tu {
+  margin: 0 auto;
+  width: 2.7rem;
+  margin-bottom: 0.25rem;
+}
+#sec-1 .sec1-action .sec1-action-body .tu img {
+  width: 100%;
+}
+#sec-1 .sec1-action .sec1-action-body button {
+  width: 100%;
+  height: 0.35rem;
+  border: 0.005rem solid #39c894;
+  background: white;
+  border-radius: 0.03rem;
+  font-size: 0.18rem;
+  color: #39c894;
+  margin-bottom: 0.18rem;
+}
+#sec-1 .sec1-action .sec1-action-body ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.18rem;
+}
+#sec-1 .sec1-action .sec1-action-body ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+}
+#sec-1 .sec1-action .sec1-action-body ul li img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#sec-1 .sec1-action .sec1-action-body ul li p {
+  text-indent: 0;
+  color: #FDB604;
+  font-size: 0.12rem;
+  line-height: 0.12rem;
+  margin-top: 0.115rem;
+}
+#sec-1 .sec1-action .sec1-action-body ul li:first-child p {
+  color: #37A6F5;
+  font-size: 0.12rem;
+}
+
+#sec-6 .sec6-head {
+  margin: 0.15rem 0.09rem 0;
+  display: flex;
+}
+#sec-6 .sec6-head .border {
+  width: 0.025rem;
+  height: 0.24rem;
+  background: #39c894;
+  margin-right: 0.06rem;
+}
+#sec-6 .sec6-head span {
+  font-size: 0.18rem;
+  color: black;
+  letter-spacing: 0.04rem;
+}
+#sec-6 .sec6-action {
+  margin: 0 0.09rem;
+  padding: 0.16rem 0 0.155rem;
+  border-bottom: 0.005rem solid #ddd;
+  display: flex;
+}
+#sec-6 .sec6-action .tu {
+  width: 0.95rem !important;
+  height: 0.725rem;
+  margin-right: 0.11rem;
+}
+#sec-6 .sec6-action .tu img {
+  width: 100%;
+  height: 100%;
+}
+#sec-6 .sec6-action .zi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#sec-6 .sec6-action .zi p {
+  line-height: 0.255rem;
+  font-size: 0.18rem;
+  width: 2.55rem;
+  display: flex;
+  align-self: flex-start;
+}
+#sec-6 .sec6-action .zi .time {
+  margin-top: 0.0725rem;
+}
+#sec-6 .sec6-action .zi span {
+  color: #999;
+  font-size: 0.14rem;
+  margin-right: 0.375rem;
+}
+#sec-6 .sec6-action .zi span i {
+  font-size: 0.14rem;
+  color: #999;
+  margin-right: 0.06rem;
+}
+#sec-6 .sec6-btn {
+  margin: 0 0.09rem;
+  margin-bottom: 0.18rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+#sec-6 .sec6-btn button {
+  width: 50%;
+  border: 0.005rem solid #ccc;
+  background: none;
+  height: 0.35rem;
+  font-size: 0.14rem;
+  color: #39c894;
+}
+#sec-6 .sec6-btn button i {
+  font-size: 0.14rem;
+  color: #39c894;
+  font-weight: bold;
+}
+#sec-6 .sec6-btn button:first-child {
+  border-top-left-radius: 0.04rem;
+  border-bottom-left-radius: 0.04rem;
+}
+#sec-6 .sec6-btn button:last-child {
+  border-top-right-radius: 0.04rem;
+  border-bottom-right-radius: 0.04rem;
+}
+
+.jianxi {
+  width: 100%;
+  height: 0.1rem;
+  background: #f4f4f4;
+}
+
+#sec-7 {
+  margin: 0 0.09rem;
+  padding: 0.15rem 0;
+}
+#sec-7 p {
+  font-size: 0.14rem;
+  color: #333;
+  line-height: 0.2rem;
+}
+
+footer {
+  padding: 0.18rem 0;
+  margin: 0 0.09rem;
+  margin-bottom: 0.53rem;
+}
+footer .foot-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foot-1 span {
+  font-size: 0.14rem;
+  vertical-align: middle;
+  color: #333;
+}
+footer .foot-1 i {
+  color: #39c894;
+  font-size: 0.16rem;
+  display: flex;
+  align-self: flex-end;
+  vertical-align: middle;
+  position: relative;
+  top: 0.02rem;
+}
+footer ul {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-top: 0.18rem;
+}
+footer ul li {
+  font-size: 0.14rem;
+  list-style: none;
+  padding: 0 0.18rem;
+  border-left: 0.005rem solid #ccc;
+  color: #333;
+}
+footer ul li:first-child {
+  border: none;
+  color: #39c894;
+}
+
+#guanggao {
+  width: 100%;
+  height: 0.53rem;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+}
+#guanggao .cha {
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#guanggao .cha img {
+  width: 100%;
+}
+#guanggao .logo {
+  margin-left: 0.6rem;
+  width: 1.65rem;
+}
+#guanggao .logo img {
+  width: 100%;
+}
+#guanggao button {
+  width: 0.875rem;
+  height: 0.25rem;
+  border-radius: 0.15rem;
+  margin-left: 0.3rem;
+  border: none;
+  background: #feb605;
+  font-size: 0.12rem;
+  color: white;
+}
+
+#dingbu {
+  width: 0.47rem;
+  height: 0.47rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 0.1rem;
+  bottom: 1rem;
+  border: 0.01rem solid #dedede;
+  border-radius: 50%;
+  background: white;
+}
+#dingbu i {
+  font-size: 0.2rem;
+  color: #9c9c9c;
+}
+
+.fenxiang {
+  width: 3.57rem;
+  box-sizing: border-box;
+  margin: 0 0.09rem;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0 0.35rem;
+}
+.fenxiang ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.fenxiang ul li {
+  list-style: none;
+  margin: 0.4rem 0.2rem 0.325rem;
+}
+.fenxiang ul li img {
+  width: 0.675rem;
+  height: 0.675rem;
+}
+.fenxiang ul li p {
+  color: white;
+  font-size: 0.16rem;
+  text-align: center;
+}
+.fenxiang button {
+  width: 100%;
+  height: 0.4rem;
+  background: white;
+  border-radius: 0.05rem;
+  border: none;
+  margin-bottom: 0.17rem;
+  font-size: 0.18rem;
+}
+
+/*# sourceMappingURL=wenzhangxiangqingfenxiang.css.map */
